@@ -1,6 +1,14 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PolePicker", "PolePicker\PolePicker.csproj", "{EFC948D4-84B5-4D0E-8F21-CBCAA9D26312}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PolePicker.API", "PolePicker.API\PolePicker.API.csproj", "{EFC948D4-84B5-4D0E-8F21-CBCAA9D26312}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PolePicker.Configuration", "PolePicker.Configuration\PolePicker.Configuration.csproj", "{7ADDDE5D-E61F-44F6-979F-2A26A643706C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PolePicker.Domain", "PolePicker.Domain\PolePicker.Domain.csproj", "{1BF20370-AF54-46C7-B03C-94F9FE6E32F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PolePicker.Infrastructure", "PolePicker.Infrastructure\PolePicker.Infrastructure.csproj", "{91E89B43-DB7C-4404-81B5-AD7E88CCAA46}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PolePicker.Application", "PolePicker.Application\PolePicker.Application.csproj", "{606F3FB7-D5C7-495A-9BAA-751930E142C4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -12,5 +20,21 @@ Global
 		{EFC948D4-84B5-4D0E-8F21-CBCAA9D26312}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EFC948D4-84B5-4D0E-8F21-CBCAA9D26312}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EFC948D4-84B5-4D0E-8F21-CBCAA9D26312}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7ADDDE5D-E61F-44F6-979F-2A26A643706C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7ADDDE5D-E61F-44F6-979F-2A26A643706C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7ADDDE5D-E61F-44F6-979F-2A26A643706C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7ADDDE5D-E61F-44F6-979F-2A26A643706C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BF20370-AF54-46C7-B03C-94F9FE6E32F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BF20370-AF54-46C7-B03C-94F9FE6E32F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BF20370-AF54-46C7-B03C-94F9FE6E32F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BF20370-AF54-46C7-B03C-94F9FE6E32F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91E89B43-DB7C-4404-81B5-AD7E88CCAA46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91E89B43-DB7C-4404-81B5-AD7E88CCAA46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91E89B43-DB7C-4404-81B5-AD7E88CCAA46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91E89B43-DB7C-4404-81B5-AD7E88CCAA46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{606F3FB7-D5C7-495A-9BAA-751930E142C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{606F3FB7-D5C7-495A-9BAA-751930E142C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{606F3FB7-D5C7-495A-9BAA-751930E142C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{606F3FB7-D5C7-495A-9BAA-751930E142C4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
